@@ -7,7 +7,7 @@
 
 /**
  * @swagger
- * /api/users/register:
+ * /register:
  *   post:
  *     summary: Register a new user
  *     tags: [Auth]
@@ -51,7 +51,7 @@
 
 /**
  * @swagger
- * /api/users/login:
+ * /login:
  *   post:
  *     summary: Login a user
  *     tags: [Auth]
@@ -102,7 +102,7 @@
 
 /**
  * @swagger
- * /api/users/logout:
+ * /logout:
  *   get:
  *     summary: Logout the current user
  *     tags: [Auth]
@@ -142,7 +142,7 @@
 
 /**
  * @swagger
- * /api/users/me:
+ * /me:
  *   get:
  *     summary: Get current logged in user profile
  *     tags: [Auth]

@@ -26,7 +26,12 @@ const options = {
   },
   servers: [
     {
+      url: "http://localhost:3000/api/users",
+      description: "API Gateway (frontend should use this)",
+    },
+    {
       url: "http://localhost:3001",
+      description: "Direct service (for local testing)",
     },
   ],
 
